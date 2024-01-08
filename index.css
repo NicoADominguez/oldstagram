@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+header {
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header */
+
+.logo {
+    /* border: 1px solid red; */
+    padding-bottom: 20px;
+    width: 270px;
+}
+
+.user-avatar {
+    /* border: 1px solid black; */
+    width: 70px;
+    border-radius: 50%;
+    align-self: center;
+    margin-right: 30px;
+
+}
+
+
+/* section one */
+.main-section {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.container {
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.vg-avatar {
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+    /* margin-bottom: 20px; */
+    align-self: center;
+}
+
+.location {
+    display: block;
+    font-weight:500;
+    padding-top: 5px;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.vg-post {
+    width: 100%;
+    height: auto;
+}
+
+/* socials */
+
+.social-container {
+    /* border: 1px solid green; */
+    display: flex;
+    padding: 10px;
+}
+
+.socials {
+    margin: 0;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    width: 50px;    
+}
+
+.heart:hover,
+.heart:active {
+}
+
+/* section three */
+
+.user-input {
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-bottom: 30px; 
+}
+
+.accent-text {
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.spacing {
+    padding: 5px;
+}
